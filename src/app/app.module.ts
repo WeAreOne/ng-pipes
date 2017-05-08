@@ -4,10 +4,12 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
+import { SummaryPipe } from './posts/shared/summary.pipe';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    SummaryPipe
   ],
   imports: [
     BrowserModule,

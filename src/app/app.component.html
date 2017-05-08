@@ -1,3 +1,9 @@
 <h1>
   {{title}}
 </h1>
+
+<div>
+  Body : {{ myPost.body }}<br />
+  Summary : {{ myPost.body | summary }}<br />
+  Long Summary : {{ myPost.body | summary:100 }}
+</div>
