@@ -2,13 +2,15 @@ import { TestBed, async } from '@angular/core/testing';
 
 import { AppComponent } from './app.component';
 import { SummaryPipe } from "./posts/shared/summary.pipe";
+import { FromNowPipe } from "./shared/from-now.pipe";
 
 describe('AppComponent', () => {
   beforeEach(async(() => {
     TestBed.configureTestingModule({
       declarations: [
         AppComponent,
-        SummaryPipe
+        SummaryPipe,
+        FromNowPipe
       ],
     }).compileComponents();
   }));

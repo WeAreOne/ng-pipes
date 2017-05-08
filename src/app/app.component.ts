@@ -13,4 +13,5 @@ export class AppComponent {
     'reprehenderit optio amet ab temporibus asperiores quasi cupiditate. ' +
     'Voluptatum ducimus voluptates voluptas?'
   };
+  myDate = new Date(1483225200000);
 }

@@ -5,11 +5,13 @@ import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
 import { SummaryPipe } from './posts/shared/summary.pipe';
+import { FromNowPipe } from './shared/from-now.pipe';
 
 @NgModule({
   declarations: [
     AppComponent,
-    SummaryPipe
+    SummaryPipe,
+    FromNowPipe
   ],
   imports: [
     BrowserModule,
